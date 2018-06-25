@@ -80,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="120.8" y="133.5832083958021"/>
+            <point key="canvasLocation" x="121" y="140"/>
         </scene>
         <!--Question View Controller-->
         <scene sceneID="dQw-OG-ZBQ">
@@ -91,28 +91,40 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vh7-4S-WEh">
-                                <rect key="frame" x="151" y="346" width="86" height="48"/>
+                                <rect key="frame" x="122" y="344" width="150" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etr-hO-cgM">
-                                <rect key="frame" x="151" y="472" width="86" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="tapAbswerButton:" destination="cIF-5r-XKY" eventType="touchUpInside" id="kut-b6-ZTC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pe-Ub-lpN">
-                                <rect key="frame" x="151" y="416" width="86" height="48"/>
+                                <rect key="frame" x="122" y="415" width="150" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="tapAbswerButton:" destination="cIF-5r-XKY" eventType="touchUpInside" id="v53-N1-3CE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etr-hO-cgM">
+                                <rect key="frame" x="122" y="480" width="150" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="tapAbswerButton:" destination="cIF-5r-XKY" eventType="touchUpInside" id="hw0-mE-8eR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfk-07-xIC">
-                                <rect key="frame" x="151" y="549" width="86" height="48"/>
+                                <rect key="frame" x="122" y="549" width="150" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="tapAbswerButton:" destination="cIF-5r-XKY" eventType="touchUpInside" id="qLE-0o-fBO"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="問題文" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tez-3Z-9K5">
                                 <rect key="frame" x="74" y="160" width="240" height="128"/>
@@ -133,12 +145,33 @@
                         <viewLayoutGuide key="safeArea" id="zr3-Mj-CYJ"/>
                     </view>
                     <connections>
+                        <outlet property="answerButton1" destination="vh7-4S-WEh" id="hcw-yo-6jF"/>
+                        <outlet property="answerButton2" destination="8pe-Ub-lpN" id="ICL-fd-vLT"/>
+                        <outlet property="answerButton3" destination="etr-hO-cgM" id="qq3-3d-mIt"/>
+                        <outlet property="answerButton4" destination="Rfk-07-xIC" id="4Ao-QW-EFe"/>
                         <outlet property="bandNameLabel" destination="wE9-3Z-d0o" id="CTd-tq-el3"/>
+                        <outlet property="quizText" destination="tez-3Z-9K5" id="rYh-YK-PGE"/>
+                        <segue destination="bRo-zj-yDe" kind="show" id="NYn-QY-Lki"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TiA-2Q-7dg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="903" y="140"/>
+            <point key="canvasLocation" x="901.60000000000002" y="139.880059970015"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="bZP-Pl-fnm">
+            <objects>
+                <viewController id="bRo-zj-yDe" customClass="resultViewController" customModule="BanGDream_QuizApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KvK-nm-cDk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.82893409041728272" green="1" blue="0.398953309540649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="yNf-Mb-WbY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tIR-CT-H8j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1646" y="140"/>
         </scene>
     </scenes>
 </document>

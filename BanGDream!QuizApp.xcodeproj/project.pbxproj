@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B4CB4A720CE5DC30098EF41 /* Afterglow.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B4CB4A620CE5DC30098EF41 /* Afterglow.plist */; };
+		8B4CB4A920D253B50098EF41 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CB4A820D253B50098EF41 /* resultViewController.swift */; };
 		8B936BAF20CA671E00503902 /* ハローハッピーワールド.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B936BAE20CA671E00503902 /* ハローハッピーワールド.plist */; };
 		8B936BB120CA8BC000503902 /* questionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B936BB020CA8BC000503902 /* questionViewController.swift */; };
 		8BCEE1F320C916FB0072709A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCEE1F220C916FB0072709A /* AppDelegate.swift */; };
@@ -14,10 +16,12 @@
 		8BCEE1F820C916FB0072709A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BCEE1F620C916FB0072709A /* Main.storyboard */; };
 		8BCEE1FA20C916FD0072709A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCEE1F920C916FD0072709A /* Assets.xcassets */; };
 		8BCEE1FD20C916FD0072709A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BCEE1FB20C916FD0072709A /* LaunchScreen.storyboard */; };
-		8BCEE20520C95CA80072709A /* Poppin'Party.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BCEE20420C95CA80072709A /* Poppin'Party.plist */; };
+		8BCEE20520C95CA80072709A /* PoppinParty.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BCEE20420C95CA80072709A /* PoppinParty.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B4CB4A620CE5DC30098EF41 /* Afterglow.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Afterglow.plist; sourceTree = "<group>"; };
+		8B4CB4A820D253B50098EF41 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 		8B936BAE20CA671E00503902 /* ハローハッピーワールド.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ハローハッピーワールド.plist"; sourceTree = "<group>"; };
 		8B936BB020CA8BC000503902 /* questionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionViewController.swift; sourceTree = "<group>"; };
 		8BCEE1EF20C916FB0072709A /* BanGDream!QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BanGDream!QuizApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,7 +31,7 @@
 		8BCEE1F920C916FD0072709A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BCEE1FC20C916FD0072709A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BCEE1FE20C916FD0072709A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BCEE20420C95CA80072709A /* Poppin'Party.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Poppin'Party.plist"; sourceTree = "<group>"; };
+		8BCEE20420C95CA80072709A /* PoppinParty.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PoppinParty.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +66,14 @@
 			children = (
 				8BCEE1F220C916FB0072709A /* AppDelegate.swift */,
 				8BCEE1F420C916FB0072709A /* ViewController.swift */,
+				8B4CB4A820D253B50098EF41 /* resultViewController.swift */,
 				8B936BB020CA8BC000503902 /* questionViewController.swift */,
 				8BCEE1F620C916FB0072709A /* Main.storyboard */,
 				8BCEE1F920C916FD0072709A /* Assets.xcassets */,
 				8BCEE1FB20C916FD0072709A /* LaunchScreen.storyboard */,
-				8BCEE20420C95CA80072709A /* Poppin'Party.plist */,
+				8BCEE20420C95CA80072709A /* PoppinParty.plist */,
 				8B936BAE20CA671E00503902 /* ハローハッピーワールド.plist */,
+				8B4CB4A620CE5DC30098EF41 /* Afterglow.plist */,
 				8BCEE1FE20C916FD0072709A /* Info.plist */,
 			);
 			path = "BanGDream!QuizApp";
@@ -131,8 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4CB4A720CE5DC30098EF41 /* Afterglow.plist in Resources */,
 				8BCEE1FD20C916FD0072709A /* LaunchScreen.storyboard in Resources */,
-				8BCEE20520C95CA80072709A /* Poppin'Party.plist in Resources */,
+				8BCEE20520C95CA80072709A /* PoppinParty.plist in Resources */,
 				8BCEE1FA20C916FD0072709A /* Assets.xcassets in Resources */,
 				8B936BAF20CA671E00503902 /* ハローハッピーワールド.plist in Resources */,
 				8BCEE1F820C916FB0072709A /* Main.storyboard in Resources */,
@@ -149,6 +156,7 @@
 				8B936BB120CA8BC000503902 /* questionViewController.swift in Sources */,
 				8BCEE1F520C916FB0072709A /* ViewController.swift in Sources */,
 				8BCEE1F320C916FB0072709A /* AppDelegate.swift in Sources */,
+				8B4CB4A920D253B50098EF41 /* resultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

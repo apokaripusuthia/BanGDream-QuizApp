@@ -4,133 +4,133 @@
 <dict>
 	<key>問10</key>
 	<dict>
-		<key>Vo.、『弦巻　こころ』の名前を正しく書くと？</key>
-		<string></string>
-		<key>ダンス部</key>
-		<string></string>
-		<key>美術部</key>
-		<string></string>
-		<key>天文部</key>
-		<string></string>
-		<key>帰宅部</key>
-		<string></string>
+		<key>Q10</key>
+		<string>Vo.、『弦巻　こころ』が所属している部活は？</string>
+		<key>A1</key>
+		<string>帰宅部</string>
+		<key>A2</key>
+		<string>ダンス部</string>
+		<key>A3</key>
+		<string>美術部</string>
+		<key>A4</key>
+		<string>天文部</string>
 	</dict>
 	<key>問9</key>
 	<dict>
-		<key>Ba.、『北沢　はぐみ』が所属している部活は？</key>
-		<string></string>
-		<key>陸上部</key>
-		<string></string>
-		<key>テニス部</key>
-		<string></string>
-		<key>ダンス部</key>
-		<string></string>
-		<key>ソフトボール部</key>
-		<string></string>
+		<key>Q9</key>
+		<string>Ba.、『北沢　はぐみ』が所属している部活は？</string>
+		<key>A1</key>
+		<string>陸上部</string>
+		<key>A2</key>
+		<string>テニス部</string>
+		<key>A3</key>
+		<string>ダンス部</string>
+		<key>A4</key>
+		<string>ソフトボール部</string>
 	</dict>
 	<key>問8</key>
 	<dict>
-		<key>DJ、『奥沢　美咲』が所属している部活は？</key>
-		<string></string>
-		<key>家庭科部</key>
-		<string></string>
-		<key>裁縫部</key>
-		<string></string>
-		<key>テニス部</key>
-		<string></string>
-		<key>帰宅部</key>
-		<string></string>
+		<key>Q8</key>
+		<string>DJ、『奥沢　美咲』が所属している部活は？</string>
+		<key>A1</key>
+		<string>テニス部</string>
+		<key>A2</key>
+		<string>裁縫部</string>
+		<key>A3</key>
+		<string>家庭科部</string>
+		<key>A4</key>
+		<string>帰宅部</string>
 	</dict>
 	<key>問7</key>
 	<dict>
-		<key>Gt.、『瀬田　薫』が所属している部活は？</key>
-		<string></string>
-		<key>哲学部</key>
-		<string></string>
-		<key>演劇部</key>
-		<string></string>
-		<key>美術部</key>
-		<string></string>
-		<key>天文部</key>
-		<string></string>
+		<key>Q7</key>
+		<string>Gt.、『瀬田　薫』が所属している部活は？</string>
+		<key>A1</key>
+		<string>哲学部</string>
+		<key>A2</key>
+		<string>演劇部</string>
+		<key>A3</key>
+		<string>美術部</string>
+		<key>A4</key>
+		<string>天文部</string>
 	</dict>
 	<key>問6</key>
 	<dict>
-		<key>Dr.、『松原　花音』が所属している部活は？</key>
-		<string></string>
-		<key>美術部</key>
-		<string></string>
-		<key>華道部</key>
-		<string></string>
-		<key>茶道部</key>
-		<string></string>
-		<key>帰宅部</key>
-		<string></string>
+		<key>Q6</key>
+		<string>Dr.、『松原　花音』が所属している部活は？</string>
+		<key>A1</key>
+		<string>茶道部</string>
+		<key>A2</key>
+		<string>美術部</string>
+		<key>A3</key>
+		<string>帰宅部</string>
+		<key>A4</key>
+		<string>華道部</string>
 	</dict>
 	<key>問5</key>
 	<dict>
-		<key>Dr.、『まつばら　かのん』の名前を正しく書くと？</key>
-		<string></string>
-		<key>松原　花音</key>
-		<string></string>
-		<key>松原　奏音</key>
-		<string></string>
-		<key>松薔薇　花音</key>
-		<string></string>
-		<key>松薔薇　奏音</key>
-		<string></string>
+		<key>Q5</key>
+		<string>Dr.、『まつばら　かのん』の名前を正しく書くと？</string>
+		<key>A1</key>
+		<string>松原　花音</string>
+		<key>A2</key>
+		<string>松原　奏音</string>
+		<key>A3</key>
+		<string>松薔薇　花音</string>
+		<key>A4</key>
+		<string>松薔薇　奏音</string>
 	</dict>
 	<key>問4</key>
 	<dict>
-		<key>Gt.、『せた　かおる』の名前を正しく書くと？</key>
-		<string></string>
-		<key>瀬田　薫</key>
-		<string></string>
-		<key>世田　薫</key>
-		<string></string>
-		<key>瀬多　薫</key>
-		<string></string>
-		<key>清多　薫</key>
-		<string></string>
+		<key>Q4</key>
+		<string>Gt.、『せた　かおる』の名前を正しく書くと？</string>
+		<key>A1</key>
+		<string>瀬田　薫</string>
+		<key>A2</key>
+		<string>世田　薫</string>
+		<key>A3</key>
+		<string>瀬多　薫</string>
+		<key>A4</key>
+		<string>清多　薫</string>
 	</dict>
 	<key>問3</key>
 	<dict>
-		<key>DJ、『おくさわ　みさき』の名前を正しく書くと？</key>
-		<string></string>
-		<key>奥沢　岬</key>
-		<string></string>
-		<key>奥沢　三崎</key>
-		<string></string>
-		<key>奥沢　美咲</key>
-		<string></string>
-		<key>奥沢　美崎</key>
-		<string></string>
+		<key>Q3</key>
+		<string>DJ、『おくさわ　みさき』の名前を正しく書くと？</string>
+		<key>A1</key>
+		<string>奥沢　岬</string>
+		<key>A2</key>
+		<string>奥沢　三崎</string>
+		<key>A3</key>
+		<string>奥沢　美咲</string>
+		<key>A4</key>
+		<string>奥沢　美崎</string>
 	</dict>
 	<key>問2</key>
 	<dict>
-		<key>Ba.、『きたざわ　はぐみ』の名前を正しく書くと？</key>
-		<string></string>
-		<key>北澤　育</key>
-		<string></string>
-		<key>北沢　育</key>
-		<string></string>
-		<key>北澤　はぐみ</key>
-		<string></string>
-		<key>北沢　はぐみ</key>
-		<string></string>
+		<key>Q2</key>
+		<string>Ba.、『きたざわ　はぐみ』の名前を正しく書くと？</string>
+		<key>A1</key>
+		<string>北澤　育</string>
+		<key>A2</key>
+		<string>北沢　育</string>
+		<key>A3</key>
+		<string>北澤　はぐみ</string>
+		<key>A4</key>
+		<string>北沢　はぐみ</string>
 	</dict>
 	<key>問1</key>
 	<dict>
-		<key>Vo.、『つるまき　こころ』の名前を正しく書くと？</key>
-		<string></string>
-		<key>弦巻　心</key>
-		<string></string>
-		<key>鶴巻　心</key>
-		<string></string>
-		<key>弦巻　こころ</key>
-		<string></string>
-		<key>鶴巻　こころ</key>
-		<string></string>
+		<key>Q1</key>
+		<string>Vo.、『つるまき　こころ』の名前を正しく書くと？</string>
+		<key>A1</key>
+		<string>弦巻　心</string>
+		<key>A2</key>
+		<string>鶴巻　心</string>
+		<key>A3</key>
+		<string>弦巻　こころ</string>
+		<key>A4</key>
+		<string>鶴巻　こころ</string>
 	</dict>
 </dict>
 </plist>

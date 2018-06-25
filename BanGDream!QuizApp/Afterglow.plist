@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>問3</key>
+	<dict>
+		<key>Q3</key>
+		<string>Ba.、『うえはら　ひまり』の名前を正しく書くと？</string>
+		<key>A1</key>
+		<string>上原　陽毬</string>
+		<key>A2</key>
+		<string>日鞠</string>
+		<key>A3</key>
+		<string>青羽　モカ</string>
+		<key>A4</key>
+		<string>蒼羽　モカ</string>
+	</dict>
+	<key>問2</key>
+	<dict>
+		<key>Q2</key>
+		<string>Gt.、『あおば　もか』の名前を正しく書くと？</string>
+		<key>A1</key>
+		<string>青葉　モカ</string>
+		<key>A2</key>
+		<string>蒼葉　モカ</string>
+		<key>A3</key>
+		<string>青羽　モカ</string>
+		<key>A4</key>
+		<string>蒼羽　モカ</string>
+	</dict>
+	<key>問1</key>
+	<dict>
+		<key>Q1</key>
+		<string>Gt. &amp;Vo.、『みたけ　らん』の名前を正しく書くと？</string>
+		<key>A1</key>
+		<string>御岳　欄</string>
+		<key>A2</key>
+		<string>御岳　蘭</string>
+		<key>A3</key>
+		<string>美竹　欄</string>
+		<key>A4</key>
+		<string>美竹　蘭</string>
+	</dict>
+</dict>
+</plist>
