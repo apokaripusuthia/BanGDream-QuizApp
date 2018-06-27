@@ -65,9 +65,7 @@ class questionViewController: UIViewController {
     
 
         
-        
-    
-        //🌟宿題
+
         //Plistの場所を探す
         let filePath = Bundle.main.path(forResource: "PoppinParty", ofType: "plist")
         //Plistの中身をDictionary型で取り出す
@@ -108,17 +106,37 @@ class questionViewController: UIViewController {
         
         
         
-            
-            
-    
         
     }
     
+    
+    
     func displayQuestion(mozi:String){
         quizText.text = mozi
+    
+    
+        
+        
+        qNunber = 10; do {
+            //セグエ(ページ遷移)発動
+            performSegue(withIdentifier: "questionResult", sender: nil)
+            
+        }
+
+    
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //繊維先に情報を渡す処理
+        
+        let qvc:resultViewController = segue.destination as! resultViewController
+        
     }
     
     
+    
+
+
     
     
     override func didReceiveMemoryWarning() {

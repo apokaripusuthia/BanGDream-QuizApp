@@ -151,7 +151,7 @@
                         <outlet property="answerButton4" destination="Rfk-07-xIC" id="4Ao-QW-EFe"/>
                         <outlet property="bandNameLabel" destination="wE9-3Z-d0o" id="CTd-tq-el3"/>
                         <outlet property="quizText" destination="tez-3Z-9K5" id="rYh-YK-PGE"/>
-                        <segue destination="bRo-zj-yDe" kind="show" id="NYn-QY-Lki"/>
+                        <segue destination="bRo-zj-yDe" kind="show" identifier="questionResult" id="NYn-QY-Lki"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TiA-2Q-7dg" userLabel="First Responder" sceneMemberID="firstResponder"/>
