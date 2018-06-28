@@ -2,12 +2,77 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>問16</key>
+	<dict>
+		<key>Q</key>
+		<string>Key.、『市ケ谷　有咲』の好きな食べ物は？</string>
+		<key>A1</key>
+		<string>あんみつ・玄米・ゆでたまご　◯</string>
+		<key>A2</key>
+		<string>あんみつ・玄米・煮物</string>
+		<key>A3</key>
+		<string>あんみつ・味噌汁・餃子</string>
+		<key>A4</key>
+		<string>チョコレート・味噌汁・卵焼き</string>
+	</dict>
+	<key>問15</key>
+	<dict>
+		<key>Q</key>
+		<string>Ba.、『牛込　りみ』の好きな食べ物は？</string>
+		<key>A1</key>
+		<string>チョコレート・飴・ペペロンチーノ</string>
+		<key>A2</key>
+		<string>チョコレート・飴・チョココロネ</string>
+		<key>A3</key>
+		<string>チョコレート・お肉・ポテトサラダ</string>
+		<key>A4</key>
+		<string>チョコレート・お肉・生クリーム　◯</string>
+	</dict>
+	<key>問14</key>
+	<dict>
+		<key>Q</key>
+		<string>Dr.、『山吹　沙綾』の好きな食べ物は？</string>
+		<key>A1</key>
+		<string>ペペロンチーノ・カルボナーラ</string>
+		<key>A2</key>
+		<string>ペペロンチーノ・チーズ　◯</string>
+		<key>A3</key>
+		<string>ペペロンチーノ・食パン</string>
+		<key>A4</key>
+		<string>ペペロンチーノ・煮物</string>
+	</dict>
+	<key>問13</key>
+	<dict>
+		<key>Q</key>
+		<string>Gt.、『花園　たえ』の好きな食べ物は？</string>
+		<key>A1</key>
+		<string>ハンバーグ・りんご</string>
+		<key>A2</key>
+		<string>ハンバーグ・焼きそば</string>
+		<key>A3</key>
+		<string>ハンバーグ・おしるこ　◯</string>
+		<key>A4</key>
+		<string>ハンバーグ・あんみつ</string>
+	</dict>
+	<key>問12</key>
+	<dict>
+		<key>Q</key>
+		<string>Gt. &amp;Vo.、『戸山　香澄』の好きな食べ物は？</string>
+		<key>A1</key>
+		<string>フライドポテト・あんみつ</string>
+		<key>A2</key>
+		<string>フライドポテト・白いご飯　◯</string>
+		<key>A3</key>
+		<string>フライドポテト・ハンバーグ</string>
+		<key>A4</key>
+		<string>フライドポテト・卵焼き</string>
+	</dict>
 	<key>問11</key>
 	<dict>
 		<key>Q</key>
 		<string>Poppin&apos;Partyのメンバーが通っている高校の名前は？</string>
 		<key>A1</key>
-		<string>花咲川女子学園高校</string>
+		<string>花咲川女子学園高校　◯</string>
 		<key>A2</key>
 		<string>花咲川女子学園高等部</string>
 		<key>A3</key>
@@ -24,7 +89,7 @@
 		<key>A2</key>
 		<string>ヤマブキベーカリー</string>
 		<key>A3</key>
-		<string>やまぶきベーカリー</string>
+		<string>やまぶきベーカリー　◯</string>
 		<key>A4</key>
 		<string>やまぶきべーかりー</string>
 	</dict>
@@ -39,7 +104,7 @@
 		<key>A3</key>
 		<string>牛込　まり</string>
 		<key>A4</key>
-		<string>牛込　ゆり</string>
+		<string>牛込　ゆり　◯</string>
 	</dict>
 	<key>問8</key>
 	<dict>
@@ -48,7 +113,7 @@
 		<key>A1</key>
 		<string>質店「夜空堂」</string>
 		<key>A2</key>
-		<string>質店「流星堂」</string>
+		<string>質店「流星堂」　◯</string>
 		<key>A3</key>
 		<string>質店「戸山堂」</string>
 		<key>A4</key>
@@ -59,7 +124,7 @@
 		<key>Q</key>
 		<string>Gt. &amp;Vo.、『戸山　香澄』が持っているギターの名前は？</string>
 		<key>A1</key>
-		<string>ランダムスター</string>
+		<string>ランダムスター　◯</string>
 		<key>A2</key>
 		<string>マジックスター</string>
 		<key>A3</key>
@@ -78,7 +143,7 @@
 		<key>A3</key>
 		<string>15羽</string>
 		<key>A4</key>
-		<string>20羽</string>
+		<string>20羽　◯</string>
 	</dict>
 	<key>問5</key>
 	<dict>
@@ -89,7 +154,7 @@
 		<key>A2</key>
 		<string>華園　多恵</string>
 		<key>A3</key>
-		<string>花園　たえ</string>
+		<string>花園　たえ　◯</string>
 		<key>A4</key>
 		<string>華園　たえ</string>
 	</dict>
@@ -102,7 +167,7 @@
 		<key>A2</key>
 		<string>牛込　李見</string>
 		<key>A3</key>
-		<string>牛込　りみ</string>
+		<string>牛込　りみ　◯</string>
 		<key>A4</key>
 		<string>牛込　理美</string>
 	</dict>
@@ -111,7 +176,7 @@
 		<key>Q</key>
 		<string>Key.、『いちがや　ありさ』の名前を正しく書くと？</string>
 		<key>A1</key>
-		<string>市ヶ谷　有咲</string>
+		<string>市ヶ谷　有咲　◯</string>
 		<key>A2</key>
 		<string>市ヶ谷　亜里沙</string>
 		<key>A3</key>
@@ -130,16 +195,16 @@
 		<key>A3</key>
 		<string>山伏　沙綾</string>
 		<key>A4</key>
-		<string>山吹　沙綾</string>
+		<string>山吹　沙綾　◯</string>
 	</dict>
 	<key>問1</key>
 	<dict>
 		<key>Q</key>
 		<string>Gt. &amp;Vo.、『とやま　かすみ』の名前を正しく書くと？</string>
 		<key>A1</key>
-		<string>富山　香澄</string>
+		<string>戸山　香澄　◯</string>
 		<key>A2</key>
-		<string>戸山　香澄</string>
+		<string>富山　香澄</string>
 		<key>A3</key>
 		<string>十山　香澄</string>
 		<key>A4</key>
