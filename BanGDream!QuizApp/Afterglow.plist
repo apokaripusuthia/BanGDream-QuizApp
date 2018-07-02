@@ -7,26 +7,30 @@
 		<key>Q3</key>
 		<string>Key.、『羽沢　つぐみ』の好きな食べ物は？</string>
 		<key>A1</key>
-		<string>母の焼いたケーキ　◯</string>
+		<string>母の焼いたケーキ</string>
 		<key>A2</key>
 		<string>母の焼いたパン</string>
 		<key>A3</key>
 		<string>母の淹れた紅茶</string>
 		<key>A4</key>
 		<string>母の淹れたコーヒー</string>
+		<key>Correct</key>
+		<string>母の焼いたケーキ</string>
 	</dict>
 	<key>問14</key>
 	<dict>
 		<key>Q3</key>
 		<string>Ba.、『上原　ひまり』の好きな食べ物は？</string>
 		<key>A1</key>
-		<string>チョコレート・コンビニスイーツ　◯</string>
+		<string>チョコレート・コンビニスイーツ</string>
 		<key>A2</key>
 		<string>チョコレート・パン</string>
 		<key>A3</key>
 		<string>あんみつ・アイスクリーム</string>
 		<key>A4</key>
 		<string>あんみつ・パフェ</string>
+		<key>Correct</key>
+		<string>チョコレート・コンビニスイーツ</string>
 	</dict>
 	<key>問13</key>
 	<dict>
@@ -39,7 +43,9 @@
 		<key>A3</key>
 		<string>豚骨ラーメン</string>
 		<key>A4</key>
-		<string>豚骨しょうゆラーメン　◯</string>
+		<string>豚骨しょうゆラーメン</string>
+		<key>Correct</key>
+		<string>豚骨しょうゆラーメン</string>
 	</dict>
 	<key>問12</key>
 	<dict>
@@ -50,9 +56,11 @@
 		<key>A2</key>
 		<string>せんべい</string>
 		<key>A3</key>
-		<string>パン　◯</string>
+		<string>パン</string>
 		<key>A4</key>
 		<string>いちご</string>
+		<key>Correct</key>
+		<string>パン</string>
 	</dict>
 	<key>問11</key>
 	<dict>
@@ -65,7 +73,9 @@
 		<key>A3</key>
 		<string>すっぱいお菓子</string>
 		<key>A4</key>
-		<string>ビター系のお菓子　◯</string>
+		<string>ビター系のお菓子</string>
+		<key>Correct</key>
+		<string>ビター系のお菓子</string>
 	</dict>
 	<key>問10</key>
 	<dict>
@@ -74,11 +84,13 @@
 		<key>A1</key>
 		<string>4月5日</string>
 		<key>A2</key>
-		<string>4月10日 ◯</string>
+		<string>4月10日</string>
 		<key>A3</key>
 		<string>4月15日 </string>
 		<key>A4</key>
 		<string>4月20日</string>
+		<key>Correct</key>
+		<string>4月10日</string>
 	</dict>
 	<key>問9</key>
 	<dict>
@@ -89,9 +101,11 @@
 		<key>A2</key>
 		<string>9月2日</string>
 		<key>A3</key>
-		<string>9月3日 ◯</string>
+		<string>9月3日</string>
 		<key>A4</key>
 		<string>9月4日</string>
+		<key>Correct</key>
+		<string>9月3日</string>
 	</dict>
 	<key>問8</key>
 	<dict>
@@ -100,11 +114,13 @@
 		<key>A1</key>
 		<string>4月10日</string>
 		<key>A2</key>
-		<string>4月15日 ◯</string>
+		<string>4月15日</string>
 		<key>A3</key>
 		<string>4月20日</string>
 		<key>A4</key>
 		<string>4月25日</string>
+		<key>Correct</key>
+		<string>4月15日</string>
 	</dict>
 	<key>問7</key>
 	<dict>
@@ -117,7 +133,9 @@
 		<key>A3</key>
 		<string>10月18日</string>
 		<key>A4</key>
-		<string>10月23日 ◯</string>
+		<string>10月23日</string>
+		<key>Correct</key>
+		<string>10月23日</string>
 	</dict>
 	<key>問6</key>
 	<dict>
@@ -128,9 +146,11 @@
 		<key>A2</key>
 		<string>1月5日</string>
 		<key>A3</key>
-		<string>1月7日　◯</string>
+		<string>1月7日</string>
 		<key>A4</key>
 		<string>1月10日</string>
+		<key>Correct</key>
+		<string>1月7日</string>
 	</dict>
 	<key>問5</key>
 	<dict>
@@ -139,11 +159,13 @@
 		<key>A1</key>
 		<string>羽沢　二美</string>
 		<key>A2</key>
-		<string>羽沢　つぐみ　◯</string>
+		<string>羽沢　つぐみ</string>
 		<key>A3</key>
 		<string>葉沢　二美</string>
 		<key>A4</key>
 		<string>葉沢　つぐみ</string>
+		<key>Correct</key>
+		<string>羽沢　つぐみ</string>
 	</dict>
 	<key>問4</key>
 	<dict>
@@ -156,7 +178,9 @@
 		<key>A3</key>
 		<string>宇田川　智恵</string>
 		<key>A4</key>
-		<string>宇田川　巴　◯</string>
+		<string>宇田川　巴</string>
+		<key>Correct</key>
+		<string>宇田川　巴</string>
 	</dict>
 	<key>問3</key>
 	<dict>
@@ -169,20 +193,24 @@
 		<key>A3</key>
 		<string>上原　陽鞠</string>
 		<key>A4</key>
-		<string>上原　ひまり　◯</string>
+		<string>上原　ひまり</string>
+		<key>Correct</key>
+		<string>上原　ひまり</string>
 	</dict>
 	<key>問2</key>
 	<dict>
 		<key>Q2</key>
 		<string>Gt.、『あおば　もか』の名前を正しく書くと？</string>
 		<key>A1</key>
-		<string>青葉　モカ　◯</string>
+		<string>青葉　モカ</string>
 		<key>A2</key>
 		<string>蒼葉　モカ</string>
 		<key>A3</key>
 		<string>青羽　モカ</string>
 		<key>A4</key>
 		<string>蒼羽　モカ</string>
+		<key>Correct</key>
+		<string>青葉　モカ</string>
 	</dict>
 	<key>問1</key>
 	<dict>
@@ -195,7 +223,9 @@
 		<key>A3</key>
 		<string>美竹　欄</string>
 		<key>A4</key>
-		<string>美竹　蘭　◯</string>
+		<string>美竹　蘭</string>
+		<key>Correct</key>
+		<string>美竹　蘭</string>
 	</dict>
 </dict>
 </plist>
