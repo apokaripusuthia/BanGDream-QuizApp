@@ -47,10 +47,28 @@ class questionViewController: UIViewController {
         answerButton4.setTitle(a4, for: .normal)
         
         
+        
+        
+        
+    ///////////////////////////////////////////////
+        
+       var Correct = dic["Correct"]as! String
+        
+        var userAnswer: String?
+        
+        
+        func isCorrect() -> Bool{
+            if Correct == userAnswer{
+                return true
+            }
+                return false
+        }
+        
+    //////////////////////////////////////////////////
+        
+        
+        
     }
-    
-    
-    
     
     var passedIndex:Int = -1
     
@@ -102,22 +120,12 @@ class questionViewController: UIViewController {
             
             let a4 = dic["A4"] as! String
             answerButton4.setTitle(a4, for: .normal)
-        
-        
-        
-        
-        
     }
-    
-    
-    
+
     func displayQuestion(mozi:String){
         quizText.text = mozi
-    
-    
         
-        
-        qNunber = 10; do {
+        if qNunber == 11 {
             //セグエ(ページ遷移)発動
             performSegue(withIdentifier: "questionResult", sender: nil)
             

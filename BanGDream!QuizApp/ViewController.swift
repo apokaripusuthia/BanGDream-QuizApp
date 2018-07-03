@@ -14,6 +14,8 @@ class ViewController: UIViewController
     
     var selectedIndex:Int!
     
+    @IBAction func goBackFirst(_ segue:UIStoryboardSegue) {}
+    
     //タップした時の処理
     @IBAction func tapBandButton(_ sender: UIButton){
     
