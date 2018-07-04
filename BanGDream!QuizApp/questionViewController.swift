@@ -74,6 +74,9 @@ class questionViewController: UIViewController {
     
     override func viewDidLoad() {
         
+        
+        
+        
         //"\(passedIndex)"中身を動的に変えたいときに使用
         bandNameLabel.text = "\(passedIndex)"
         
@@ -95,7 +98,10 @@ class questionViewController: UIViewController {
         
         let dic = dics!["問1"] as! NSDictionary
         
-            
+        
+        bandNameLabel.text = dic["name"] as! String
+        
+        
             //dataの中身を取り出す
             print(dic["Q"])
             print(dic["A1"])
