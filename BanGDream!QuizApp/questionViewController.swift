@@ -25,7 +25,10 @@ class questionViewController: UIViewController {
     //答えのボタン
     @IBAction func tapAbswerButton(_ sender: UIButton) {
         qNunber += 1
+        
          let filePath = Bundle.main.path(forResource: "PoppinParty", ofType: "plist")
+        
+        
         let dics = NSDictionary(contentsOfFile: filePath!)
         let dic = dics!["問\(qNunber)"] as! NSDictionary
         //問題文を表示
