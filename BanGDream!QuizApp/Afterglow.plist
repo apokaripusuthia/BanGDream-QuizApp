@@ -4,7 +4,7 @@
 <dict>
 	<key>問15</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>Key.、『羽沢　つぐみ』の好きな食べ物は？</string>
 		<key>A1</key>
 		<string>母の焼いたケーキ</string>
@@ -19,7 +19,7 @@
 	</dict>
 	<key>問14</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>Ba.、『上原　ひまり』の好きな食べ物は？</string>
 		<key>A1</key>
 		<string>チョコレート・コンビニスイーツ</string>
@@ -34,7 +34,7 @@
 	</dict>
 	<key>問13</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>Dr.、『宇田川　巴』の好きな食べ物は？</string>
 		<key>A1</key>
 		<string>味噌ラーメン</string>
@@ -49,7 +49,7 @@
 	</dict>
 	<key>問12</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>Gt.、『青葉　モカ』の好きな食べ物は？</string>
 		<key>A1</key>
 		<string>飴</string>
@@ -64,7 +64,7 @@
 	</dict>
 	<key>問11</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>Gt. &amp;Vo.、『美竹　蘭』の好きな食べ物は？</string>
 		<key>A1</key>
 		<string>甘いお菓子</string>
@@ -79,7 +79,7 @@
 	</dict>
 	<key>問10</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>Gt. &amp;Vo.、『美竹　蘭』の誕生日は？</string>
 		<key>A1</key>
 		<string>4月5日</string>
@@ -94,7 +94,7 @@
 	</dict>
 	<key>問9</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>Gt.、『青葉　モカ』の誕生日は？</string>
 		<key>A1</key>
 		<string>9月1日</string>
@@ -109,7 +109,7 @@
 	</dict>
 	<key>問8</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>Dr.、『宇田川　巴』の誕生日は？</string>
 		<key>A1</key>
 		<string>4月10日</string>
@@ -124,7 +124,7 @@
 	</dict>
 	<key>問7</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>Ba.、『上原　ひまり』の誕生日は？</string>
 		<key>A1</key>
 		<string>10月10日</string>
@@ -139,7 +139,7 @@
 	</dict>
 	<key>問6</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>Key.、『羽沢　つぐみ』の誕生日は？</string>
 		<key>A1</key>
 		<string>1月1日</string>
@@ -154,7 +154,7 @@
 	</dict>
 	<key>問5</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>Key.、『はざわ　つぐみ』の名前を正しく書くと？</string>
 		<key>A1</key>
 		<string>羽沢　二美</string>
@@ -169,7 +169,7 @@
 	</dict>
 	<key>問4</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>Dr.、『うだがわ　ともえ』の名前を正しく書くと？</string>
 		<key>A1</key>
 		<string>宇多川　智恵</string>
@@ -184,7 +184,7 @@
 	</dict>
 	<key>問3</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>Ba.、『うえはら　ひまり』の名前を正しく書くと？</string>
 		<key>A1</key>
 		<string>上原　陽毬</string>
@@ -199,7 +199,7 @@
 	</dict>
 	<key>問2</key>
 	<dict>
-		<key>Q2</key>
+		<key>Q</key>
 		<string>Gt.、『あおば　もか』の名前を正しく書くと？</string>
 		<key>A1</key>
 		<string>青葉　モカ</string>
@@ -214,7 +214,7 @@
 	</dict>
 	<key>問1</key>
 	<dict>
-		<key>Q1</key>
+		<key>Q</key>
 		<string>Gt. &amp;Vo.、『みたけ　らん』の名前を正しく書くと？</string>
 		<key>A1</key>
 		<string>御岳　欄</string>

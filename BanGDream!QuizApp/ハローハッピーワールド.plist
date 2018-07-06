@@ -4,7 +4,7 @@
 <dict>
 	<key>問15</key>
 	<dict>
-		<key>Q10</key>
+		<key>Q</key>
 		<string>Dr.、『松原　花音』の好きな食べ物は？（キャラ作りは除く）</string>
 		<key>A1</key>
 		<string>美味しいお菓子・ケーキ・コーヒー・紅茶</string>
@@ -19,7 +19,7 @@
 	</dict>
 	<key>問14</key>
 	<dict>
-		<key>Q10</key>
+		<key>Q</key>
 		<string>Gt.、『瀬田　薫』の好きな食べ物は？（キャラ作りは除く）</string>
 		<key>A1</key>
 		<string>ザッハトルテ</string>
@@ -34,7 +34,7 @@
 	</dict>
 	<key>問13</key>
 	<dict>
-		<key>Q10</key>
+		<key>Q</key>
 		<string>DJ、『奥沢　美咲』の好きな食べ物は？</string>
 		<key>A1</key>
 		<string>煮物</string>
@@ -49,7 +49,7 @@
 	</dict>
 	<key>問12</key>
 	<dict>
-		<key>Q10</key>
+		<key>Q</key>
 		<string>Ba.、『北沢　はぐみ』の好きな食べ物は？</string>
 		<key>A1</key>
 		<string>自分のお店のコロッケ・お肉・シチュー</string>
@@ -64,7 +64,7 @@
 	</dict>
 	<key>問11</key>
 	<dict>
-		<key>Q10</key>
+		<key>Q</key>
 		<string>Vo.、『弦巻　こころ』の好きな食べ物は？</string>
 		<key>A1</key>
 		<string>なんでも好き！</string>
@@ -79,7 +79,7 @@
 	</dict>
 	<key>問10</key>
 	<dict>
-		<key>Q10</key>
+		<key>Q</key>
 		<string>Vo.、『弦巻　こころ』が所属している部活は？</string>
 		<key>A1</key>
 		<string>帰宅部</string>
@@ -94,7 +94,7 @@
 	</dict>
 	<key>問9</key>
 	<dict>
-		<key>Q9</key>
+		<key>Q</key>
 		<string>Ba.、『北沢　はぐみ』が所属している部活は？</string>
 		<key>A1</key>
 		<string>陸上部</string>
@@ -109,7 +109,7 @@
 	</dict>
 	<key>問8</key>
 	<dict>
-		<key>Q8</key>
+		<key>Q</key>
 		<string>DJ、『奥沢　美咲』が所属している部活は？</string>
 		<key>A1</key>
 		<string>テニス部</string>
@@ -124,7 +124,7 @@
 	</dict>
 	<key>問7</key>
 	<dict>
-		<key>Q7</key>
+		<key>Q</key>
 		<string>Gt.、『瀬田　薫』が所属している部活は？</string>
 		<key>A1</key>
 		<string>哲学部</string>
@@ -139,7 +139,7 @@
 	</dict>
 	<key>問6</key>
 	<dict>
-		<key>Q6</key>
+		<key>Q</key>
 		<string>Dr.、『松原　花音』が所属している部活は？</string>
 		<key>A1</key>
 		<string>茶道部</string>
@@ -154,7 +154,7 @@
 	</dict>
 	<key>問5</key>
 	<dict>
-		<key>Q5</key>
+		<key>Q</key>
 		<string>Dr.、『まつばら　かのん』の名前を正しく書くと？</string>
 		<key>A1</key>
 		<string>松原　花音</string>
@@ -169,7 +169,7 @@
 	</dict>
 	<key>問4</key>
 	<dict>
-		<key>Q4</key>
+		<key>Q</key>
 		<string>Gt.、『せた　かおる』の名前を正しく書くと？</string>
 		<key>A1</key>
 		<string>瀬田　薫</string>
@@ -184,7 +184,7 @@
 	</dict>
 	<key>問3</key>
 	<dict>
-		<key>Q3</key>
+		<key>Q</key>
 		<string>DJ、『おくさわ　みさき』の名前を正しく書くと？</string>
 		<key>A1</key>
 		<string>奥沢　岬</string>
@@ -199,7 +199,7 @@
 	</dict>
 	<key>問2</key>
 	<dict>
-		<key>Q2</key>
+		<key>Q</key>
 		<string>Ba.、『きたざわ　はぐみ』の名前を正しく書くと？</string>
 		<key>A1</key>
 		<string>北澤　育</string>
@@ -214,7 +214,7 @@
 	</dict>
 	<key>問1</key>
 	<dict>
-		<key>Q1</key>
+		<key>Q</key>
 		<string>Vo.、『つるまき　こころ』の名前を正しく書くと？</string>
 		<key>A1</key>
 		<string>弦巻　心</string>

@@ -20,62 +20,79 @@ class questionViewController: UIViewController {
     @IBOutlet weak var answerButton3: UIButton!
     @IBOutlet weak var answerButton4: UIButton!
     
-    
+    // ViewController.swiftから渡された値
+    var passedIndex = -1
     var qNunber = 1
-    //答えのボタン
-    @IBAction func tapAbswerButton(_ sender: UIButton) {
-        qNunber += 1
-        
-        //let filePath = Bundle.main.path(forResource: "PoppinParty", ofType: "plist")
-       
-        
-        
+    var filePath = "";
+    
+    override func viewDidLoad() {
+        //画面が読み込まれた時に処理が動く
         //ファイルパスを取得
         if passedIndex == 0{
-            filePath = Bundle.main.path(forResource:"Poppin'Party", ofType:"plist")!
+            filePath = Bundle.main.path(forResource:"PoppinParty", ofType:"plist")!
         }else if passedIndex == 1{
             filePath = Bundle.main.path(forResource:"Afterglow", ofType:"plist")!
         }else if passedIndex == 2{
-            filePath = Bundle.main.path(forResource:"Pastel*Palettes", ofType:"plist")!
+            filePath = Bundle.main.path(forResource:"PastelPalettes", ofType:"plist")!
         }else if passedIndex == 3{
             filePath = Bundle.main.path(forResource:"Roselia", ofType:"plist")!
         }else if passedIndex == 4{
             filePath = Bundle.main.path(forResource:"ハローハッピーワールド", ofType:"plist")!
         }
         
-        
-        
-        
-        let dics = NSDictionary(contentsOfFile: filePath!)
+        // 辞書型(連想配列)に変えて扱いやすいようにする
+        let dics = NSDictionary(contentsOfFile: filePath)
+        // qNunberで問いの番号を指定
         let dic = dics!["問\(qNunber)"] as! NSDictionary
+        // クイズのタイトル表示
+        bandNameLabel.text = dic["name"] as? String
         //問題文を表示
-        let q = dic["Q"] as! String
-        displayQuestion(mozi: q)
+        var q = dic["Q"] as? String
+        displayQuestion(mozi: q!)
         
         //a1にdic["A1"]（答え１）を代入
-        let a1 = dic["A1"] as! String
+        var a1 = dic["A1"] as! String
         //ボタン(answerButton1)にa1を代入
         answerButton1.setTitle(a1, for: .normal)
         
-        let a2 = dic["A2"] as! String
+        var a2 = dic["A2"] as! String
         answerButton2.setTitle(a2, for: .normal)
         
-        let a3 = dic["A3"] as! String
+        var a3 = dic["A3"] as! String
         answerButton3.setTitle(a3, for: .normal)
         
-        let a4 = dic["A4"] as! String
+        var a4 = dic["A4"] as! String
+        answerButton4.setTitle(a4, for: .normal)
+        qNunber += 1
+    }
+    
+    //答えのボタン
+    @IBAction func tapAbswerButton(_ sender: UIButton) {
+        
+        let dics = NSDictionary(contentsOfFile: filePath)
+        let dic = dics!["問\(qNunber)"] as! NSDictionary
+        
+        bandNameLabel.text = dic["name"] as? String
+        //問題文を表示
+        var q = dic["Q"] as? String
+        displayQuestion(mozi: q!)
+        
+        //a1にdic["A1"]（答え１）を代入
+        var a1 = dic["A1"] as! String
+        //ボタン(answerButton1)にa1を代入
+        answerButton1.setTitle(a1, for: .normal)
+        
+        var a2 = dic["A2"] as! String
+        answerButton2.setTitle(a2, for: .normal)
+        
+        var a3 = dic["A3"] as! String
+        answerButton3.setTitle(a3, for: .normal)
+        
+        var a4 = dic["A4"] as! String
         answerButton4.setTitle(a4, for: .normal)
         
-        
-        
-        
-        
-        ///////////////////////////////////////////////
-        
         var Correct = dic["Correct"]as! String
-        
         var userAnswer: String?
-        
         
         func isCorrect() -> Bool{
             if Correct == userAnswer{
@@ -83,95 +100,22 @@ class questionViewController: UIViewController {
             }
             return false
         }
-        
-        //////////////////////////////////////////////////
-        
-        
-        
-    }
-    
-    var passedIndex:Int = -1
-    
-    override func viewDidLoad() {
-        
-        
-        
-        
-        //"\(passedIndex)"中身を動的に変えたいときに使用
-        bandNameLabel.text = "\(passedIndex)"
-        
-        super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
-        
-        
-        
-        
-        //Plistの場所を探す
-        let filePath = Bundle.main.path(forResource: "PoppinParty", ofType: "plist")
-        //Plistの中身をDictionary型で取り出す
-        let dics = NSDictionary(contentsOfFile: filePath!)
-        
-        print(dics)
-        
-        
-        
-        let dic = dics!["問1"] as! NSDictionary
-        
-        
-        bandNameLabel.text = dic["name"] as! String
-        
-        
-        //dataの中身を取り出す
-        print(dic["Q"])
-        print(dic["A1"])
-        print(dic["A2"])
-        print(dic["A3"])
-        print(dic["A4"])
-        
-        //問題文を表示
-        let q = dic["Q"] as! String
-        displayQuestion(mozi: q)
-        
-        //a1にdic["A1"]（答え１）を代入
-        let a1 = dic["A1"] as! String
-        //ボタン(answerButton1)にa1を代入
-        answerButton1.setTitle(a1, for: .normal)
-        
-        let a2 = dic["A2"] as! String
-        answerButton2.setTitle(a2, for: .normal)
-        
-        let a3 = dic["A3"] as! String
-        answerButton3.setTitle(a3, for: .normal)
-        
-        let a4 = dic["A4"] as! String
-        answerButton4.setTitle(a4, for: .normal)
+        qNunber += 1
     }
     
     func displayQuestion(mozi:String){
         quizText.text = mozi
-        
         if qNunber == 11 {
             //セグエ(ページ遷移)発動
             performSegue(withIdentifier: "questionResult", sender: nil)
-            
         }
-        
-        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        //繊維先に情報を渡す処理
-        
+        //遷移先に情報を渡す処理
         let qvc:resultViewController = segue.destination as! resultViewController
         
     }
-    
-    
-    
-    
-    
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
