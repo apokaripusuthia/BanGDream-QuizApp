@@ -9,7 +9,7 @@
 import UIKit
 
 class questionViewController: UIViewController {
-
+    
     @IBOutlet weak var bandNameLabel: UILabel!
     
     @IBOutlet weak var quizText: UITextView!
@@ -26,7 +26,24 @@ class questionViewController: UIViewController {
     @IBAction func tapAbswerButton(_ sender: UIButton) {
         qNunber += 1
         
-         let filePath = Bundle.main.path(forResource: "PoppinParty", ofType: "plist")
+        //let filePath = Bundle.main.path(forResource: "PoppinParty", ofType: "plist")
+       
+        
+        
+        //ファイルパスを取得
+        if passedIndex == 0{
+            filePath = Bundle.main.path(forResource:"Poppin'Party", ofType:"plist")!
+        }else if passedIndex == 1{
+            filePath = Bundle.main.path(forResource:"Afterglow", ofType:"plist")!
+        }else if passedIndex == 2{
+            filePath = Bundle.main.path(forResource:"Pastel*Palettes", ofType:"plist")!
+        }else if passedIndex == 3{
+            filePath = Bundle.main.path(forResource:"Roselia", ofType:"plist")!
+        }else if passedIndex == 4{
+            filePath = Bundle.main.path(forResource:"ハローハッピーワールド", ofType:"plist")!
+        }
+        
+        
         
         
         let dics = NSDictionary(contentsOfFile: filePath!)
@@ -53,9 +70,9 @@ class questionViewController: UIViewController {
         
         
         
-    ///////////////////////////////////////////////
+        ///////////////////////////////////////////////
         
-       var Correct = dic["Correct"]as! String
+        var Correct = dic["Correct"]as! String
         
         var userAnswer: String?
         
@@ -64,10 +81,10 @@ class questionViewController: UIViewController {
             if Correct == userAnswer{
                 return true
             }
-                return false
+            return false
         }
         
-    //////////////////////////////////////////////////
+        //////////////////////////////////////////////////
         
         
         
@@ -84,12 +101,12 @@ class questionViewController: UIViewController {
         bandNameLabel.text = "\(passedIndex)"
         
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    
-
         
-
+        // Do any additional setup after loading the view.
+        
+        
+        
+        
         //Plistの場所を探す
         let filePath = Bundle.main.path(forResource: "PoppinParty", ofType: "plist")
         //Plistの中身をDictionary型で取り出す
@@ -105,32 +122,32 @@ class questionViewController: UIViewController {
         bandNameLabel.text = dic["name"] as! String
         
         
-            //dataの中身を取り出す
-            print(dic["Q"])
-            print(dic["A1"])
-            print(dic["A2"])
-            print(dic["A3"])
-            print(dic["A4"])
-            
-            //問題文を表示
-            let q = dic["Q"] as! String
-            displayQuestion(mozi: q)
-            
-            //a1にdic["A1"]（答え１）を代入
-            let a1 = dic["A1"] as! String
-            //ボタン(answerButton1)にa1を代入
-            answerButton1.setTitle(a1, for: .normal)
-            
-            let a2 = dic["A2"] as! String
-            answerButton2.setTitle(a2, for: .normal)
-            
-            let a3 = dic["A3"] as! String
-            answerButton3.setTitle(a3, for: .normal)
-            
-            let a4 = dic["A4"] as! String
-            answerButton4.setTitle(a4, for: .normal)
+        //dataの中身を取り出す
+        print(dic["Q"])
+        print(dic["A1"])
+        print(dic["A2"])
+        print(dic["A3"])
+        print(dic["A4"])
+        
+        //問題文を表示
+        let q = dic["Q"] as! String
+        displayQuestion(mozi: q)
+        
+        //a1にdic["A1"]（答え１）を代入
+        let a1 = dic["A1"] as! String
+        //ボタン(answerButton1)にa1を代入
+        answerButton1.setTitle(a1, for: .normal)
+        
+        let a2 = dic["A2"] as! String
+        answerButton2.setTitle(a2, for: .normal)
+        
+        let a3 = dic["A3"] as! String
+        answerButton3.setTitle(a3, for: .normal)
+        
+        let a4 = dic["A4"] as! String
+        answerButton4.setTitle(a4, for: .normal)
     }
-
+    
     func displayQuestion(mozi:String){
         quizText.text = mozi
         
@@ -139,8 +156,8 @@ class questionViewController: UIViewController {
             performSegue(withIdentifier: "questionResult", sender: nil)
             
         }
-
-    
+        
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -152,8 +169,8 @@ class questionViewController: UIViewController {
     
     
     
-
-
+    
+    
     
     
     override func didReceiveMemoryWarning() {
@@ -162,12 +179,13 @@ class questionViewController: UIViewController {
         
     }
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-            */
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
 }
+

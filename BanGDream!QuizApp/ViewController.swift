@@ -12,81 +12,73 @@ import UIKit
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
 {
     
-    var selectedIndex:Int!
-    
     @IBAction func goBackFirst(_ segue:UIStoryboardSegue) {}
     
-   //プロコトルの設定
+    //プロコトルの設定
     @IBOutlet weak var myTableView: UITableView!
+    
+    // 行数の設定
+    var dataList = ["Poppin'Party","Afterglow", "Pastel*Palettes","Roselia","ハローハッピーワールド"]
+    
+    // 選択された行番号
+    var selectedIndex = -1 //全く選択されていない時は、-1が入っている
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    // 行数を指定
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return dataList.count
+    }
     
-    //タップした時の処理
-   // @IBAction func tapBandButton(_ sender: UIButton){
-        //sender.tagに番号が入っている
-      //  print(sender.tag)
-        //番号をselectedIndexに入れる
-        //selectedIndex = sender.tag
-        //セグエ(ページ遷移)発動
-        //performSegue(withIdentifier: "titleToQuestion", sender: nil)
-    //}
-    
-  //行数の設定
-    var dataList = ["Poppin'Party","Afterglow", "Pastel*Palettes","Roselia","ハローハッピーワールド"]
-    
-func tableView(_ tableView: UITableView, numberOfRowsInSection
-    section: Int) -> Int{
-return dataList.count
-
-}
-
-//セルに表示する文字を設定
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    // 表示するセルの中身
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath : IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell",for:indexPath)
+        // 定数を表示
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         
+        // 表示したい文字の設定 cellの中には最初からtextLabelが入っている
         cell.textLabel?.text = dataList[indexPath.row]
+        cell.textLabel?.textColor = UIColor.black
+        
+        // 文字を設定したセル
         return cell
-        
     }
-
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // 選択された行番号をメンバ変数に格納
+        selectedIndex = indexPath.row
+        
+        // セグエを指定して画面移動
+        performSegue(withIdentifier: "goQuestion", sender: nil)
+    }
     
-    
-    
-    
-
-
-    
-
-    
-    //セグエの間に発動
+    // セグエを通って次の画面へ移動するとき
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        //繊維先に情報を渡す処理
         
-       let qvc:questionViewController = segue.destination as! questionViewController
-        
-        //selectedIndexにはボタンの番号が入っている
-        //↑をpassedIndexに入れている
-        //次のプロパティ
-        qvc.passedIndex = selectedIndex
-        
-        
+        if segue.identifier == "titleToQuestion" {
+            // 次の画面をインスタンス化(ダウンキャスト型変換)
+            var dvc = segue.destination as! questionViewController
+            
+            // 次の画面のプロパティに選択された行番号を指定
+            dvc.passedIndex = selectedIndex
+            print(dvc.passedIndex)
+        }
     }
     
-        
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
+
+
+
 
 
 
