@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1FE36120F1E66B00E02E45 /* PastelPalettes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B1FE36020F1E66A00E02E45 /* PastelPalettes.plist */; };
 		8B4CB4A720CE5DC30098EF41 /* Afterglow.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B4CB4A620CE5DC30098EF41 /* Afterglow.plist */; };
 		8B4CB4A920D253B50098EF41 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CB4A820D253B50098EF41 /* resultViewController.swift */; };
 		8B936BAF20CA671E00503902 /* ハローハッピーワールド.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B936BAE20CA671E00503902 /* ハローハッピーワールド.plist */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B1FE36020F1E66A00E02E45 /* PastelPalettes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PastelPalettes.plist; sourceTree = "<group>"; };
 		8B4CB4A620CE5DC30098EF41 /* Afterglow.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Afterglow.plist; sourceTree = "<group>"; };
 		8B4CB4A820D253B50098EF41 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 		8B936BAE20CA671E00503902 /* ハローハッピーワールド.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ハローハッピーワールド.plist"; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				8BCEE20420C95CA80072709A /* PoppinParty.plist */,
 				8B936BAE20CA671E00503902 /* ハローハッピーワールド.plist */,
 				8B4CB4A620CE5DC30098EF41 /* Afterglow.plist */,
+				8B1FE36020F1E66A00E02E45 /* PastelPalettes.plist */,
 				8BCEE1FE20C916FD0072709A /* Info.plist */,
 			);
 			path = "BanGDream!QuizApp";
@@ -143,6 +146,7 @@
 				8BCEE1FA20C916FD0072709A /* Assets.xcassets in Resources */,
 				8B936BAF20CA671E00503902 /* ハローハッピーワールド.plist in Resources */,
 				8BCEE1F820C916FB0072709A /* Main.storyboard in Resources */,
+				8B1FE36120F1E66B00E02E45 /* PastelPalettes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

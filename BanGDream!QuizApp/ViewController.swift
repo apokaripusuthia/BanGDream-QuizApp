@@ -52,7 +52,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         selectedIndex = indexPath.row
         
         // セグエを指定して画面移動
-        performSegue(withIdentifier: "goQuestion", sender: nil)
+        performSegue(withIdentifier: "titleToQuestion", sender: nil)
     }
     
     // セグエを通って次の画面へ移動するとき
