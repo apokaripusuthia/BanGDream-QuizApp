@@ -16,6 +16,8 @@
 		<string>美味しいお菓子・ケーキ・チョココロネ・ぶどう</string>
 		<key>Correct</key>
 		<string>美味しいお菓子・ケーキ・コーヒー・紅茶</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問14</key>
 	<dict>
@@ -31,6 +33,8 @@
 		<string>煮物</string>
 		<key>Correct</key>
 		<string>煮物</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問13</key>
 	<dict>
@@ -46,6 +50,8 @@
 		<string>ファミレスのメニュー</string>
 		<key>Correct</key>
 		<string>ファミレスのメニュー</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問12</key>
 	<dict>
@@ -61,6 +67,8 @@
 		<string>自分のお店のコロッケ・焼き魚・焼きそば</string>
 		<key>Correct</key>
 		<string>自分のお店のコロッケ・お肉・カレー</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問11</key>
 	<dict>
@@ -76,6 +84,8 @@
 		<string>嫌いなものはない！</string>
 		<key>Correct</key>
 		<string>なんでも大好き！</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問10</key>
 	<dict>
@@ -91,6 +101,8 @@
 		<string>天文部</string>
 		<key>Correct</key>
 		<string>天文部</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問9</key>
 	<dict>
@@ -106,6 +118,8 @@
 		<string>ソフトボール部</string>
 		<key>Correct</key>
 		<string>ダンス部</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問8</key>
 	<dict>
@@ -121,6 +135,8 @@
 		<string>帰宅部</string>
 		<key>Correct</key>
 		<string>テニス部</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問7</key>
 	<dict>
@@ -136,6 +152,8 @@
 		<string>天文部</string>
 		<key>Correct</key>
 		<string>演劇部</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問6</key>
 	<dict>
@@ -151,6 +169,8 @@
 		<string>華道部</string>
 		<key>Correct</key>
 		<string>茶道部</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問5</key>
 	<dict>
@@ -166,6 +186,8 @@
 		<string>松薔薇　奏音</string>
 		<key>Correct</key>
 		<string>松原　花音</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問4</key>
 	<dict>
@@ -181,6 +203,8 @@
 		<string>清多　薫</string>
 		<key>Correct</key>
 		<string>瀬田　薫</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問3</key>
 	<dict>
@@ -196,6 +220,8 @@
 		<string>奥沢　美崎</string>
 		<key>Correct</key>
 		<string>奥沢　美咲</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問2</key>
 	<dict>
@@ -211,6 +237,8 @@
 		<string>北沢　はぐみ</string>
 		<key>Correct</key>
 		<string>北沢　はぐみ</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 	<key>問1</key>
 	<dict>
@@ -226,6 +254,8 @@
 		<string>鶴巻　こころ</string>
 		<key>Correct</key>
 		<string>弦巻　こころ</string>
+		<key>name</key>
+		<string>ハローハッピーワールド</string>
 	</dict>
 </dict>
 </plist>

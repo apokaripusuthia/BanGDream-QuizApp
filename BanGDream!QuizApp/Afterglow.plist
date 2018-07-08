@@ -16,6 +16,8 @@
 		<string>母の淹れたコーヒー</string>
 		<key>Correct</key>
 		<string>母の焼いたケーキ</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問14</key>
 	<dict>
@@ -31,6 +33,8 @@
 		<string>あんみつ・パフェ</string>
 		<key>Correct</key>
 		<string>チョコレート・コンビニスイーツ</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問13</key>
 	<dict>
@@ -46,6 +50,8 @@
 		<string>豚骨しょうゆラーメン</string>
 		<key>Correct</key>
 		<string>豚骨しょうゆラーメン</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問12</key>
 	<dict>
@@ -61,6 +67,8 @@
 		<string>いちご</string>
 		<key>Correct</key>
 		<string>パン</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問11</key>
 	<dict>
@@ -76,6 +84,8 @@
 		<string>ビター系のお菓子</string>
 		<key>Correct</key>
 		<string>ビター系のお菓子</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問10</key>
 	<dict>
@@ -91,6 +101,8 @@
 		<string>4月20日</string>
 		<key>Correct</key>
 		<string>4月10日</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問9</key>
 	<dict>
@@ -106,6 +118,8 @@
 		<string>9月4日</string>
 		<key>Correct</key>
 		<string>9月3日</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問8</key>
 	<dict>
@@ -121,6 +135,8 @@
 		<string>4月25日</string>
 		<key>Correct</key>
 		<string>4月15日</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問7</key>
 	<dict>
@@ -136,6 +152,8 @@
 		<string>10月23日</string>
 		<key>Correct</key>
 		<string>10月23日</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問6</key>
 	<dict>
@@ -151,6 +169,8 @@
 		<string>1月10日</string>
 		<key>Correct</key>
 		<string>1月7日</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問5</key>
 	<dict>
@@ -166,6 +186,8 @@
 		<string>葉沢　つぐみ</string>
 		<key>Correct</key>
 		<string>羽沢　つぐみ</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問4</key>
 	<dict>
@@ -181,6 +203,8 @@
 		<string>宇田川　巴</string>
 		<key>Correct</key>
 		<string>宇田川　巴</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問3</key>
 	<dict>
@@ -196,6 +220,8 @@
 		<string>上原　ひまり</string>
 		<key>Correct</key>
 		<string>上原　ひまり</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問2</key>
 	<dict>
@@ -211,6 +237,8 @@
 		<string>蒼羽　モカ</string>
 		<key>Correct</key>
 		<string>青葉　モカ</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 	<key>問1</key>
 	<dict>
@@ -226,6 +254,8 @@
 		<string>美竹　蘭</string>
 		<key>Correct</key>
 		<string>美竹　蘭</string>
+		<key>name</key>
+		<string>Afterglow</string>
 	</dict>
 </dict>
 </plist>

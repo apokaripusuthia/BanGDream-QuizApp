@@ -16,6 +16,8 @@
 		<string>チョコレート・味噌汁・卵焼き</string>
 		<key>Correct</key>
 		<string>あんみつ・玄米・ゆでたまご</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問15</key>
 	<dict>
@@ -31,6 +33,8 @@
 		<string>チョコレート・お肉・生クリーム</string>
 		<key>Correct</key>
 		<string>チョコレート・お肉・生クリーム</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問14</key>
 	<dict>
@@ -46,6 +50,8 @@
 		<string>ペペロンチーノ・煮物</string>
 		<key>Correct</key>
 		<string>ペペロンチーノ・チーズ</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問13</key>
 	<dict>
@@ -61,6 +67,8 @@
 		<string>ハンバーグ・あんみつ</string>
 		<key>Correct</key>
 		<string>ハンバーグ・おしるこ</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問12</key>
 	<dict>
@@ -76,6 +84,8 @@
 		<string>フライドポテト・卵焼き</string>
 		<key>Correct</key>
 		<string>フライドポテト・白いご飯</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問11</key>
 	<dict>
@@ -91,6 +101,8 @@
 		<string>羽丘女子学園高等部</string>
 		<key>Correct</key>
 		<string>花咲川女子学園高校</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問10</key>
 	<dict>
@@ -106,6 +118,8 @@
 		<string>やまぶきべーかりー</string>
 		<key>Correct</key>
 		<string>やまぶきベーカリー</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問9</key>
 	<dict>
@@ -121,6 +135,8 @@
 		<string>牛込　ゆり</string>
 		<key>Correct</key>
 		<string>牛込　ゆり</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問8</key>
 	<dict>
@@ -136,6 +152,8 @@
 		<string>質店「市ケ谷堂」</string>
 		<key>Correct</key>
 		<string>質店「流星堂」</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問7</key>
 	<dict>
@@ -151,6 +169,8 @@
 		<string>ホシノコドウ</string>
 		<key>Correct</key>
 		<string>ランダムスター</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問6</key>
 	<dict>
@@ -166,6 +186,8 @@
 		<string>20羽</string>
 		<key>Correct</key>
 		<string>20羽</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問5</key>
 	<dict>
@@ -181,6 +203,8 @@
 		<string>華園　たえ</string>
 		<key>Correct</key>
 		<string>花園　たえ</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問4</key>
 	<dict>
@@ -196,6 +220,8 @@
 		<string>牛込　理美</string>
 		<key>Correct</key>
 		<string>牛込　りみ</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問3</key>
 	<dict>
@@ -211,6 +237,8 @@
 		<string>市ケ谷　ありさ</string>
 		<key>Correct</key>
 		<string>市ヶ谷　有咲</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問2</key>
 	<dict>
@@ -226,6 +254,8 @@
 		<string>山吹　沙綾</string>
 		<key>Correct</key>
 		<string>山吹　沙綾</string>
+		<key>name</key>
+		<string>Poppin&apos;Party</string>
 	</dict>
 	<key>問1</key>
 	<dict>

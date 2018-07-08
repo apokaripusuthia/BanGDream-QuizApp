@@ -16,6 +16,8 @@
 		<string>紅茶・さっぱりした味のもの・ショートケーキ</string>
 		<key>Correct</key>
 		<string>紅茶・さっぱりした味のもの・アサイーボウル</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問14</key>
 	<dict>
@@ -31,6 +33,8 @@
 		<string>食パン</string>
 		<key>Correct</key>
 		<string>野菜スティック</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問13</key>
 	<dict>
@@ -46,6 +50,8 @@
 		<string>ジンジャークッキー</string>
 		<key>Correct</key>
 		<string>ジンジャークッキー</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問12</key>
 	<dict>
@@ -61,6 +67,8 @@
 		<string>寿司・天ぷらなどの和食</string>
 		<key>Correct</key>
 		<string>オムライス・ハンバーグなどの洋食</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問11</key>
 	<dict>
@@ -76,6 +84,8 @@
 		<string>ガム・キャンディ・プリン</string>
 		<key>Correct</key>
 		<string>ガム・キャンディ・ジャンクフード</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問10</key>
 	<dict>
@@ -91,6 +101,8 @@
 		<string>味が薄いもの</string>
 		<key>Correct</key>
 		<string>味が薄いもの</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問9</key>
 	<dict>
@@ -106,6 +118,8 @@
 		<string>味噌</string>
 		<key>Correct</key>
 		<string>高級食材</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問8</key>
 	<dict>
@@ -121,6 +135,8 @@
 		<string>パン</string>
 		<key>Correct</key>
 		<string>高級食材</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問7</key>
 	<dict>
@@ -136,6 +152,8 @@
 		<string>金平糖</string>
 		<key>Correct</key>
 		<string>ぬか漬け</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問6</key>
 	<dict>
@@ -151,6 +169,8 @@
 		<string>昆布</string>
 		<key>Correct</key>
 		<string>たこ</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問5</key>
 	<dict>
@@ -166,6 +186,8 @@
 		<string>白鷺　千佐都</string>
 		<key>Correct</key>
 		<string>白鷺　千聖</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問4</key>
 	<dict>
@@ -181,6 +203,8 @@
 		<string>氷川　日那</string>
 		<key>Correct</key>
 		<string>氷川　日菜</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問3</key>
 	<dict>
@@ -196,6 +220,8 @@
 		<string>大和　麻弥</string>
 		<key>Correct</key>
 		<string>大和　麻弥</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問2</key>
 	<dict>
@@ -211,6 +237,8 @@
 		<string>若美弥　イヴ</string>
 		<key>Correct</key>
 		<string>若宮　イヴ</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 	<key>問1</key>
 	<dict>
@@ -226,6 +254,8 @@
 		<string>丸山　綾</string>
 		<key>Correct</key>
 		<string>丸山　彩</string>
+		<key>name</key>
+		<string>Pastel*Palettes</string>
 	</dict>
 </dict>
 </plist>
