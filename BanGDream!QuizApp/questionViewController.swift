@@ -12,6 +12,8 @@ class questionViewController: UIViewController {
     
     @IBOutlet weak var bandNameLabel: UILabel!
     
+    @IBOutlet weak var numberOfQuestion: UILabel!
+    
     @IBOutlet weak var quizText: UITextView!
     
     //ボタン
@@ -23,7 +25,8 @@ class questionViewController: UIViewController {
     // ViewController.swiftから渡された値
     var passedIndex = -1
     var qNunber = 1
-    var filePath = "";
+    var filePath = ""
+    var answer = -1
     
     override func viewDidLoad() {
         //画面が読み込まれた時に処理が動く
@@ -46,6 +49,7 @@ class questionViewController: UIViewController {
         let dic = dics!["問\(qNunber)"] as! NSDictionary
         // クイズのタイトル表示
         bandNameLabel.text = dic["name"] as? String
+        numberOfQuestion.text = "\(qNunber)問目"
         //問題文を表示
         var q = dic["Q"] as? String
         displayQuestion(mozi: q!)
@@ -63,20 +67,47 @@ class questionViewController: UIViewController {
         
         var a4 = dic["A4"] as! String
         answerButton4.setTitle(a4, for: .normal)
-        qNunber += 1
     }
     
     //答えのボタン
     @IBAction func tapAbswerButton(_ sender: UIButton) {
         
+        let userAnswer = sender.titleLabel?.text as! String
         let dics = NSDictionary(contentsOfFile: filePath)
         let dic = dics!["問\(qNunber)"] as! NSDictionary
         
-        bandNameLabel.text = dic["name"] as? String
+        var correct = dic["Correct"] as! String
+        print(userAnswer, correct)
+        if correct == userAnswer {
+            answer += 1
+            let alertController = UIAlertController(title: "正解", message: correct, preferredStyle: .alert)
+            
+            let okAction = UIAlertAction(title: "次の問題へ", style: UIAlertActionStyle.default){ (action: UIAlertAction!) in
+                self.nextQuestion()
+            }
+            alertController.addAction(okAction)
+            present(alertController, animated: true,completion: nil)
+        } else {
+            let alertController = UIAlertController(title: "残念…", message: "正解 : \(correct)", preferredStyle: .alert)
+            
+            let okAction = UIAlertAction(title: "次の問題へ", style: UIAlertActionStyle.default){ (action: UIAlertAction) in
+                self.nextQuestion()
+            }
+            alertController.addAction(okAction)
+            present(alertController, animated: true,completion: nil)
+        }
+    }
+    
+    func nextQuestion() {
+        qNunber += 1
+        if qNunber != 11 {
+            numberOfQuestion.text = "\(qNunber)問目"
+        }
+        let dics = NSDictionary(contentsOfFile: filePath)
+        let dic = dics!["問\(qNunber)"] as! NSDictionary
         //問題文を表示
         var q = dic["Q"] as? String
         displayQuestion(mozi: q!)
-        
         //a1にdic["A1"]（答え１）を代入
         var a1 = dic["A1"] as! String
         //ボタン(answerButton1)にa1を代入
@@ -90,17 +121,7 @@ class questionViewController: UIViewController {
         
         var a4 = dic["A4"] as! String
         answerButton4.setTitle(a4, for: .normal)
-        
-        var Correct = dic["Correct"]as! String
-        var userAnswer: String?
-        
-        func isCorrect() -> Bool{
-            if Correct == userAnswer{
-                return true
-            }
-            return false
-        }
-        qNunber += 1
+        print(qNunber)
     }
     
     func displayQuestion(mozi:String){
@@ -114,6 +135,8 @@ class questionViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         //遷移先に情報を渡す処理
         let qvc:resultViewController = segue.destination as! resultViewController
+        // 正解数を次の画面に渡す
+        qvc.scoreResult = "10問中\(answer+1)問正解"
         
     }
     
@@ -132,4 +155,5 @@ class questionViewController: UIViewController {
      }
      */
 }
+
 
