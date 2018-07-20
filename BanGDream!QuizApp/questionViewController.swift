@@ -80,7 +80,7 @@ class questionViewController: UIViewController {
         print(userAnswer, correct)
         if correct == userAnswer {
             answer += 1
-            let alertController = UIAlertController(title: "正解", message: correct, preferredStyle: .alert)
+            let alertController = UIAlertController(title: "正解!", message: correct, preferredStyle: .alert)
             
             let okAction = UIAlertAction(title: "次の問題へ", style: UIAlertActionStyle.default){ (action: UIAlertAction!) in
                 self.nextQuestion()
@@ -88,7 +88,7 @@ class questionViewController: UIViewController {
             alertController.addAction(okAction)
             present(alertController, animated: true,completion: nil)
         } else {
-            let alertController = UIAlertController(title: "残念…", message: "正解 : \(correct)", preferredStyle: .alert)
+            let alertController = UIAlertController(title: "残念…", message: "正解! : \(correct)", preferredStyle: .alert)
             
             let okAction = UIAlertAction(title: "次の問題へ", style: UIAlertActionStyle.default){ (action: UIAlertAction) in
                 self.nextQuestion()
@@ -136,7 +136,7 @@ class questionViewController: UIViewController {
         //遷移先に情報を渡す処理
         let qvc:resultViewController = segue.destination as! resultViewController
         // 正解数を次の画面に渡す
-        qvc.scoreResult = "10問中\(answer+1)問正解"
+        qvc.scoreResult = "10問中\(answer+1)問正解!"
         
     }
     

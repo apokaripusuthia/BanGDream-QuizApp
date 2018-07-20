@@ -13,6 +13,10 @@
 		8B4CB4A920D253B50098EF41 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CB4A820D253B50098EF41 /* resultViewController.swift */; };
 		8B936BAF20CA671E00503902 /* ハローハッピーワールド.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B936BAE20CA671E00503902 /* ハローハッピーワールド.plist */; };
 		8B936BB120CA8BC000503902 /* questionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B936BB020CA8BC000503902 /* questionViewController.swift */; };
+		8B9B9A5721007E5C000F7473 /* haikei.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 8B9B9A5621007E5B000F7473 /* haikei.bmp */; };
+		8B9B9A5921007F32000F7473 /* gao0064.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 8B9B9A5821007F32000F7473 /* gao0064.bmp */; };
+		8B9B9A5B2101BE2E000F7473 /* あ.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8B9B9A5A2101BE2D000F7473 /* あ.tiff */; };
+		8B9B9A5D2101BF68000F7473 /* Pasted Graphic 1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8B9B9A5C2101BF68000F7473 /* Pasted Graphic 1.tiff */; };
 		8BCEE1F320C916FB0072709A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCEE1F220C916FB0072709A /* AppDelegate.swift */; };
 		8BCEE1F520C916FB0072709A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCEE1F420C916FB0072709A /* ViewController.swift */; };
 		8BCEE1F820C916FB0072709A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BCEE1F620C916FB0072709A /* Main.storyboard */; };
@@ -28,6 +32,10 @@
 		8B4CB4A820D253B50098EF41 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 		8B936BAE20CA671E00503902 /* ハローハッピーワールド.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ハローハッピーワールド.plist"; sourceTree = "<group>"; };
 		8B936BB020CA8BC000503902 /* questionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionViewController.swift; sourceTree = "<group>"; };
+		8B9B9A5621007E5B000F7473 /* haikei.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = haikei.bmp; sourceTree = "<group>"; };
+		8B9B9A5821007F32000F7473 /* gao0064.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = gao0064.bmp; sourceTree = "<group>"; };
+		8B9B9A5A2101BE2D000F7473 /* あ.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "あ.tiff"; sourceTree = "<group>"; };
+		8B9B9A5C2101BF68000F7473 /* Pasted Graphic 1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Pasted Graphic 1.tiff"; path = "../../Pasted Graphic 1.tiff"; sourceTree = "<group>"; };
 		8BCEE1EF20C916FB0072709A /* BanGDream!QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BanGDream!QuizApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCEE1F220C916FB0072709A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BCEE1F420C916FB0072709A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +80,10 @@
 				8BCEE1F420C916FB0072709A /* ViewController.swift */,
 				8B936BB020CA8BC000503902 /* questionViewController.swift */,
 				8B4CB4A820D253B50098EF41 /* resultViewController.swift */,
+				8B9B9A5621007E5B000F7473 /* haikei.bmp */,
+				8B9B9A5A2101BE2D000F7473 /* あ.tiff */,
+				8B9B9A5C2101BF68000F7473 /* Pasted Graphic 1.tiff */,
+				8B9B9A5821007F32000F7473 /* gao0064.bmp */,
 				8BCEE1F620C916FB0072709A /* Main.storyboard */,
 				8BCEE1F920C916FD0072709A /* Assets.xcassets */,
 				8BCEE1FB20C916FD0072709A /* LaunchScreen.storyboard */,
@@ -144,13 +156,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B4CB4A720CE5DC30098EF41 /* Afterglow.plist in Resources */,
+				8B9B9A5721007E5C000F7473 /* haikei.bmp in Resources */,
 				8BCEE1FD20C916FD0072709A /* LaunchScreen.storyboard in Resources */,
+				8B9B9A5921007F32000F7473 /* gao0064.bmp in Resources */,
+				8B9B9A5D2101BF68000F7473 /* Pasted Graphic 1.tiff in Resources */,
 				8BCEE20520C95CA80072709A /* PoppinParty.plist in Resources */,
 				8BCEE1FA20C916FD0072709A /* Assets.xcassets in Resources */,
 				8B936BAF20CA671E00503902 /* ハローハッピーワールド.plist in Resources */,
 				8BCEE1F820C916FB0072709A /* Main.storyboard in Resources */,
 				8B1FE36320F1F7B300E02E45 /* Roselia.plist in Resources */,
 				8B1FE36120F1E66B00E02E45 /* PastelPalettes.plist in Resources */,
+				8B9B9A5B2101BE2E000F7473 /* あ.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
